@@ -1,9 +1,9 @@
 //Game Variables and constants
 let inputdir= {x:0,y:0};
-const foodsound= new Audio('food.mp3');
-const movesound= new Audio('move.mp3');
-const gameoversound= new Audio('gameover.mp3');
-const musicsound= new Audio('music.mp3');
+const foodsound= new Audio('../images/food.mp3');
+const movesound= new Audio('../images/move.mp3');
+const gameoversound= new Audio('../images/gameover.mp3');
+const musicsound= new Audio('../images/music.mp3');
 let lastpainttime=0;
 let speed= 6;
 let snakeArr=[{x:14,y:16}];
